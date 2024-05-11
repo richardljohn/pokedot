@@ -13,7 +13,7 @@ function Navigation() {
 
 	return (
 		<header>
-			<h2><a className="logo" href="/pokedot/">Pokédot</a></h2>
+			<h2><a className="logo" href="/">Pokédot</a></h2>
 			<nav ref={navRef}>
 				{/* <a className="nav-link" href="/search">Search</a>
         		<a className="nav-link" href="/profile">Profile</a>  */}
