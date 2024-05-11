@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 import '../styles/disclaimer.css';
 
-const Disclaimer = ({ onClose }) => {
+const Disclaimer = () => {
   return (
   <>
     <p className="title">Welcome to Pokédot</p>
@@ -16,7 +16,7 @@ const Disclaimer = ({ onClose }) => {
         </Card.Text>
       </Card.Body>
       <Card.Footer className="disclaimer-footer">
-        <Button variant="primary" onClick={onClose}><Link to="/pokedot/pokemon" className="disclaimer-link">Go to Pokédex</Link></Button>
+        <Button variant="primary"><Link to="/pokedot/pokemon" className="disclaimer-link">Go to Pokédex</Link></Button>
       </Card.Footer>
     </Card>
   </>
