@@ -7,6 +7,7 @@ function Navigation() {
   const navRef = useRef();
   const [isNavOpen, setIsNavOpen] = useState(false);
 
+  // Navigation Mobile View Automatic Closers
   const toggleNavigation = () => {
     setIsNavOpen(!isNavOpen);
   };
