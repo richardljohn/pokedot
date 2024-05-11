@@ -34,7 +34,7 @@ const App = () => {
       <Navigation/>
       <Routes>
         <Route path="pokedot/" element={<Disclaimer />} />
-        <Route path="/pokemon" element={<PokemonList pokemonList={pokemonList} loading={loading} />} />
+        <Route path="pokedot/pokemon" element={<PokemonList pokemonList={pokemonList} loading={loading} />} />
         <Route path="pokedot/pokemon/:id" element={<PokemonDetails />} />
       </Routes>
     </Router>
