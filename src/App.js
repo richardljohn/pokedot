@@ -5,7 +5,6 @@ import PokemonList from './components/PokemonList';
 import PokemonDetails from "./pages/PokemonDetails";
 import Disclaimer from './pages/Disclaimer'
 import axios from 'axios';
-import { BrowserRouter } from 'react-router-dom';
 
 const App = () => {
   const [pokemonList, setPokemonList] = useState([]);
@@ -31,14 +30,14 @@ const App = () => {
   }, []);
 
   return (
-    <BrowserRouter>
+    <Router>
       <Navigation />
       <Routes>
         <Route path="/pokedot" element={<Disclaimer />} />
         <Route path="/pokedot/pokemon" element={<PokemonList pokemonList={pokemonList} loading={loading} />} />
         <Route path="/pokemon/:id" element={<PokemonDetails />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 
