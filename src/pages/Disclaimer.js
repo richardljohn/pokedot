@@ -16,7 +16,7 @@ const Disclaimer = ({ onClose }) => {
         </Card.Text>
       </Card.Body>
       <Card.Footer className="disclaimer-footer">
-        <Button variant="primary" onClick={onClose}><Link to="pokedot/pokemon" className="disclaimer-link">Go to Pokédex</Link></Button>
+        <Button variant="primary" onClick={onClose}><Link to="/pokedot/pokemon" className="disclaimer-link">Go to Pokédex</Link></Button>
       </Card.Footer>
     </Card>
   </>
