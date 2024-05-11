@@ -17,6 +17,9 @@ function Navigation() {
 			<nav ref={navRef}>
 				{/* <a className="nav-link" href="/search">Search</a>
         		<a className="nav-link" href="/profile">Profile</a>  */}
+
+
+				{/* Might need to add a new html or index file */}
 				<a className="nav-link" href="pokedot/pokemon">Pokédex</a> 
 				<a className="nav-link" href="pokedot/">Disclaimer</a> 
 				<button
@@ -27,6 +30,7 @@ function Navigation() {
 			</nav>
 
 			{/* Redo when Profile, Accounts, Favorites, Teams, etc. are done with. */}
+
 			<button
 				className="nav-btn"
 				onClick={showNavigation}>
