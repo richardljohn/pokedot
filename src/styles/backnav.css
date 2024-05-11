@@ -1,0 +1,23 @@
+.backnav {
+    background-color: #343a40; /* Dark background color */
+    position: fixed;
+}
+
+.navbar-link { 
+    font-size: 5px;
+    color: white;
+}
+
+.nav-link {
+    margin-left: 10px; /* Adjust as needed */
+    font-size: 10px; /* Larger font size */
+    font-weight: bold; /* Bold the font weight */
+}
+
+.backnav-heading { 
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
