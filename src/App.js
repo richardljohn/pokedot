@@ -35,7 +35,7 @@ const App = () => {
       <Routes>
         <Route path="/pokedot" element={<Disclaimer />} />
         <Route path="/pokedot/pokemon" element={<PokemonList pokemonList={pokemonList} loading={loading} />} />
-        <Route path="/pokemon/:id" element={<PokemonDetails />} />
+        <Route path="/pokedot/pokemon/:id" element={<PokemonDetails />} />
       </Routes>
     </Router>
   );

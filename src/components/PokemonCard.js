@@ -38,7 +38,7 @@ const PokemonCard = ({ pokemon }) => {
   // };
 
   return (
-    <Link to={`/pokemon/${pokemon.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
+    <Link to={`/pokedot/pokemon/${pokemon.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
       <Card 
         style={{ 
           backgroundColor: cardBackgroundColor, 

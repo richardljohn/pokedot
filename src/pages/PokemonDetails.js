@@ -77,7 +77,7 @@ const PokemonDetails = () => {
   return (
     <div className="pokemon-details">
       <div className="center-top">
-        <Button className="pokedex-back-link"><Link className="pokedex-back-link" to="/pokemon">Back to Pokédex</Link></Button>
+        <Button className="pokedex-back-link"><Link className="pokedex-back-link" to="/pokedot/pokemon">Back to Pokédex</Link></Button>
       </div>
       <div className={`pokemon-details-container`}>
         <h1>#{id.toString().padStart(3, '0')} {capitalizedPokemonName}</h1>
