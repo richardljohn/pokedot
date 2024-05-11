@@ -13,12 +13,12 @@ function Navigation() {
 
 	return (
 		<header>
-			<h2><a className="logo" href="/">Pokédot</a></h2>
+			<h2><a className="logo" href="pokedot/">Pokédot</a></h2>
 			<nav ref={navRef}>
 				{/* <a className="nav-link" href="/search">Search</a>
         		<a className="nav-link" href="/profile">Profile</a>  */}
-				<a className="nav-link" href="/pokemon">Pokédex</a> 
-				<a className="nav-link" href="/">Disclaimer</a> 
+				<a className="nav-link" href="pokedot/pokemon">Pokédex</a> 
+				<a className="nav-link" href="pokedot/">Disclaimer</a> 
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavigation}>
