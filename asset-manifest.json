@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/pokedot/static/css/main.84bd4b00.css",
-    "main.js": "/pokedot/static/js/main.bd43d9b3.js",
+    "main.js": "/pokedot/static/js/main.ae9d54dc.js",
     "index.html": "/pokedot/index.html",
     "main.84bd4b00.css.map": "/pokedot/static/css/main.84bd4b00.css.map",
-    "main.bd43d9b3.js.map": "/pokedot/static/js/main.bd43d9b3.js.map"
+    "main.ae9d54dc.js.map": "/pokedot/static/js/main.ae9d54dc.js.map"
   },
   "entrypoints": [
     "static/css/main.84bd4b00.css",
-    "static/js/main.bd43d9b3.js"
+    "static/js/main.ae9d54dc.js"
   ]
 }
