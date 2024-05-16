@@ -4,9 +4,13 @@ import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 import '../styles/disclaimer.css';
 
+
+// Disclaimer Page
+
 const Disclaimer = () => {
   return (
   <>
+  
     <p className="title">Welcome to Pokédot</p>
     <Card className="disclaimer-card">
       <Card.Body>
