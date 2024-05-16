@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import '../styles/disclaimer.css';
 
 
-// Disclaimer Pagexz
+// Disclaimer Pagexzx
 
 const Disclaimer = () => {
   return (
