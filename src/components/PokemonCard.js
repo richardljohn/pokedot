@@ -15,27 +15,10 @@ const PokemonCard = ({ pokemon }) => {
     ? pokemon.name.split('-').join(' (') + ')' // Format name with hyphen
     : pokemon.name;
 
-  // Check if the name includes "mega-x" or "mega-y" and format accordingly
   if (pokemon.name.includes('mega-x') || pokemon.name.includes('mega-y')) {
     formattedName = formattedName.replace('mega-', '(Mega ');
     formattedName = formattedName.charAt(0).toUpperCase() + formattedName.slice(1); // Capitalize first letter
   }
-
-  // const formatPokemonName = (name) => {
-  //   // Split the name by "-"
-  //   const parts = name.split("-");
-    
-  //   // Capitalize the first word and join the rest with spaces
-  //   const formattedName = parts[0].charAt(0).toUpperCase() + parts[0].slice(1);
-    
-  //   // If there are additional parts (e.g., "mega-x"), format them inside parentheses
-  //   if (parts.length > 1) {
-  //     const additionalParts = parts.slice(1).map(part => part.charAt(0).toUpperCase() + part.slice(1)).join(" ");
-  //     return `${formattedName} (${additionalParts})`;
-  //   }
-    
-  //   return formattedName;
-  // };
 
   return (
     <Link to={`/pokedot/pokemon/${pokemon.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
